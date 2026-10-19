@@ -1,0 +1,65 @@
+com.bmu.lifelink.app-activity-ktx-1.8.2-0 C:\Users\Sajeeb\.gradle\caches\transforms-4\016c122f4bf1218cab6415fc5202339e\transformed\activity-ktx-1.8.2\res
+com.bmu.lifelink.app-foundation-release-1 C:\Users\Sajeeb\.gradle\caches\transforms-4\06de5061ae0e4069016107b724778ca2\transformed\foundation-release\res
+com.bmu.lifelink.app-ui-text-release-2 C:\Users\Sajeeb\.gradle\caches\transforms-4\07ced2ae606ef3ad60c661246a013697\transformed\ui-text-release\res
+com.bmu.lifelink.app-material-ripple-release-3 C:\Users\Sajeeb\.gradle\caches\transforms-4\0e07e13eca827113913d3ad1e568ecdc\transformed\material-ripple-release\res
+com.bmu.lifelink.app-animation-release-4 C:\Users\Sajeeb\.gradle\caches\transforms-4\1a3f0fcea9ae66a998e48f18040f8928\transformed\animation-release\res
+com.bmu.lifelink.app-appcompat-resources-1.6.1-5 C:\Users\Sajeeb\.gradle\caches\transforms-4\1bdde0d370f2fa45949c52f9899401d4\transformed\appcompat-resources-1.6.1\res
+com.bmu.lifelink.app-navigation-compose-2.7.7-6 C:\Users\Sajeeb\.gradle\caches\transforms-4\1e519e2bd9f6326c23722f05de05cafa\transformed\navigation-compose-2.7.7\res
+com.bmu.lifelink.app-navigation-common-ktx-2.7.7-7 C:\Users\Sajeeb\.gradle\caches\transforms-4\23834a22dd210d25bd357250337d0b89\transformed\navigation-common-ktx-2.7.7\res
+com.bmu.lifelink.app-startup-runtime-1.1.1-8 C:\Users\Sajeeb\.gradle\caches\transforms-4\2d7e5e178f4b6e0d78d7371b4fcfd54c\transformed\startup-runtime-1.1.1\res
+com.bmu.lifelink.app-play-services-auth-20.7.0-9 C:\Users\Sajeeb\.gradle\caches\transforms-4\2d9ab2701da04cc81a940380c7283963\transformed\play-services-auth-20.7.0\res
+com.bmu.lifelink.app-lifecycle-runtime-2.7.0-10 C:\Users\Sajeeb\.gradle\caches\transforms-4\32a99acc8d096eff3d6a201f27c6f0f8\transformed\lifecycle-runtime-2.7.0\res
+com.bmu.lifelink.app-firebase-common-21.0.0-11 C:\Users\Sajeeb\.gradle\caches\transforms-4\35b8ca0135073dfdc480e89cdfe8f4a2\transformed\firebase-common-21.0.0\res
+com.bmu.lifelink.app-core-1.12.0-12 C:\Users\Sajeeb\.gradle\caches\transforms-4\3629e99b0582a277735b5156e31d2ffb\transformed\core-1.12.0\res
+com.bmu.lifelink.app-navigation-runtime-ktx-2.7.7-13 C:\Users\Sajeeb\.gradle\caches\transforms-4\3c62d1b48d06505aacd6121791377631\transformed\navigation-runtime-ktx-2.7.7\res
+com.bmu.lifelink.app-lifecycle-livedata-2.7.0-14 C:\Users\Sajeeb\.gradle\caches\transforms-4\3d4ae5cb997bea4939e5f2f1c8e54d85\transformed\lifecycle-livedata-2.7.0\res
+com.bmu.lifelink.app-material3-release-15 C:\Users\Sajeeb\.gradle\caches\transforms-4\3d97f9055e9f4029a61fa57bb20326be\transformed\material3-release\res
+com.bmu.lifelink.app-lifecycle-viewmodel-compose-2.7.0-16 C:\Users\Sajeeb\.gradle\caches\transforms-4\40761f8e4d8b92ba9f12fcba6ce586a2\transformed\lifecycle-viewmodel-compose-2.7.0\res
+com.bmu.lifelink.app-ui-unit-release-17 C:\Users\Sajeeb\.gradle\caches\transforms-4\4182cf6e307668809cb314995785b54e\transformed\ui-unit-release\res
+com.bmu.lifelink.app-core-ktx-1.12.0-18 C:\Users\Sajeeb\.gradle\caches\transforms-4\41a513d55d3e7b925230cf22079b05b8\transformed\core-ktx-1.12.0\res
+com.bmu.lifelink.app-ui-test-manifest-1.6.6-19 C:\Users\Sajeeb\.gradle\caches\transforms-4\492792e7b6ce0c999cf770d70a815460\transformed\ui-test-manifest-1.6.6\res
+com.bmu.lifelink.app-runtime-saveable-release-20 C:\Users\Sajeeb\.gradle\caches\transforms-4\4d78c5a8b5475f59b637c234dcc8c8bd\transformed\runtime-saveable-release\res
+com.bmu.lifelink.app-ui-release-21 C:\Users\Sajeeb\.gradle\caches\transforms-4\4f5cee08914f4cfb11566aeb6f236be5\transformed\ui-release\res
+com.bmu.lifelink.app-lifecycle-livedata-core-ktx-2.7.0-22 C:\Users\Sajeeb\.gradle\caches\transforms-4\500be0a0a9c5daab6348ae8aca0ebdb8\transformed\lifecycle-livedata-core-ktx-2.7.0\res
+com.bmu.lifelink.app-emoji2-1.3.0-23 C:\Users\Sajeeb\.gradle\caches\transforms-4\512b9665b4992aa506f1dd48ba6e747f\transformed\emoji2-1.3.0\res
+com.bmu.lifelink.app-lifecycle-runtime-ktx-2.7.0-24 C:\Users\Sajeeb\.gradle\caches\transforms-4\525e09814ea3273fbf66335993e63856\transformed\lifecycle-runtime-ktx-2.7.0\res
+com.bmu.lifelink.app-activity-compose-1.8.2-25 C:\Users\Sajeeb\.gradle\caches\transforms-4\66d75b78f33fdd2c4d6fe29944d3b907\transformed\activity-compose-1.8.2\res
+com.bmu.lifelink.app-lifecycle-viewmodel-ktx-2.7.0-26 C:\Users\Sajeeb\.gradle\caches\transforms-4\67e82cc882bbb0233ef9735e8dc19d39\transformed\lifecycle-viewmodel-ktx-2.7.0\res
+com.bmu.lifelink.app-ui-tooling-release-27 C:\Users\Sajeeb\.gradle\caches\transforms-4\6a5a2367f962926a52ca4a6af29a68b9\transformed\ui-tooling-release\res
+com.bmu.lifelink.app-lifecycle-livedata-core-2.7.0-28 C:\Users\Sajeeb\.gradle\caches\transforms-4\6bd7a02d27dc185d9ca2de3dde2b44ce\transformed\lifecycle-livedata-core-2.7.0\res
+com.bmu.lifelink.app-profileinstaller-1.3.1-29 C:\Users\Sajeeb\.gradle\caches\transforms-4\6c8208432e0f993056f1329036bac5aa\transformed\profileinstaller-1.3.1\res
+com.bmu.lifelink.app-annotation-experimental-1.4.0-30 C:\Users\Sajeeb\.gradle\caches\transforms-4\6ebf0fbca7090b98d280aafd22827aca\transformed\annotation-experimental-1.4.0\res
+com.bmu.lifelink.app-material-icons-core-release-31 C:\Users\Sajeeb\.gradle\caches\transforms-4\6f708fa1715b8fc000fb5ac507e1e3d0\transformed\material-icons-core-release\res
+com.bmu.lifelink.app-savedstate-ktx-1.2.1-32 C:\Users\Sajeeb\.gradle\caches\transforms-4\78a1ef8bf751c96efd410e024bf08dab\transformed\savedstate-ktx-1.2.1\res
+com.bmu.lifelink.app-customview-poolingcontainer-1.0.0-33 C:\Users\Sajeeb\.gradle\caches\transforms-4\81bce9ec1ba143a05de2b2b83284693b\transformed\customview-poolingcontainer-1.0.0\res
+com.bmu.lifelink.app-lifecycle-process-2.7.0-34 C:\Users\Sajeeb\.gradle\caches\transforms-4\89f2aac8da4a3f407cbf9a99c3a95248\transformed\lifecycle-process-2.7.0\res
+com.bmu.lifelink.app-lifecycle-viewmodel-savedstate-2.7.0-35 C:\Users\Sajeeb\.gradle\caches\transforms-4\8f14e49cd5cb76aac388dc981efc6e4b\transformed\lifecycle-viewmodel-savedstate-2.7.0\res
+com.bmu.lifelink.app-ui-tooling-preview-release-36 C:\Users\Sajeeb\.gradle\caches\transforms-4\994bb4cedaa2d3aaae0d58143df62dc5\transformed\ui-tooling-preview-release\res
+com.bmu.lifelink.app-coil-base-2.6.0-37 C:\Users\Sajeeb\.gradle\caches\transforms-4\99c2c40384cc16b716c302e6a8b358b4\transformed\coil-base-2.6.0\res
+com.bmu.lifelink.app-core-runtime-2.2.0-38 C:\Users\Sajeeb\.gradle\caches\transforms-4\9cecfac8dd2259f6bb88120ca47d6856\transformed\core-runtime-2.2.0\res
+com.bmu.lifelink.app-material-release-39 C:\Users\Sajeeb\.gradle\caches\transforms-4\9cf4022cf4f5b2c98429c850bbb0be5f\transformed\material-release\res
+com.bmu.lifelink.app-lifecycle-viewmodel-2.7.0-40 C:\Users\Sajeeb\.gradle\caches\transforms-4\9eaed681721657089956879e5a7ebc0b\transformed\lifecycle-viewmodel-2.7.0\res
+com.bmu.lifelink.app-ui-graphics-release-41 C:\Users\Sajeeb\.gradle\caches\transforms-4\a25bfa7467dfea77eceecebcc3ee8a88\transformed\ui-graphics-release\res
+com.bmu.lifelink.app-runtime-release-42 C:\Users\Sajeeb\.gradle\caches\transforms-4\a2d0e6f34c7155f42ddb7275654ae159\transformed\runtime-release\res
+com.bmu.lifelink.app-browser-1.4.0-43 C:\Users\Sajeeb\.gradle\caches\transforms-4\a3fde7a9dbc37b037865b63b3ac6a174\transformed\browser-1.4.0\res
+com.bmu.lifelink.app-foundation-layout-release-44 C:\Users\Sajeeb\.gradle\caches\transforms-4\a9a01834477e7bfe2e9732e49cf1e234\transformed\foundation-layout-release\res
+com.bmu.lifelink.app-credentials-play-services-auth-1.2.0-rc01-45 C:\Users\Sajeeb\.gradle\caches\transforms-4\ae0cceee4c5346c9826329673c024fa9\transformed\credentials-play-services-auth-1.2.0-rc01\res
+com.bmu.lifelink.app-play-services-base-18.1.0-46 C:\Users\Sajeeb\.gradle\caches\transforms-4\b3bd7d4781d2acca39de19ad4c4c9198\transformed\play-services-base-18.1.0\res
+com.bmu.lifelink.app-savedstate-1.2.1-47 C:\Users\Sajeeb\.gradle\caches\transforms-4\bab6b87c1e2b0f2db690529b8b44b88e\transformed\savedstate-1.2.1\res
+com.bmu.lifelink.app-activity-1.8.2-48 C:\Users\Sajeeb\.gradle\caches\transforms-4\c26199fc586c3b5f56867ea3e3aea670\transformed\activity-1.8.2\res
+com.bmu.lifelink.app-ui-geometry-release-49 C:\Users\Sajeeb\.gradle\caches\transforms-4\c52d13c506671f39da3b142e5c098683\transformed\ui-geometry-release\res
+com.bmu.lifelink.app-navigation-common-2.7.7-50 C:\Users\Sajeeb\.gradle\caches\transforms-4\cf0b774d5dbca2c1cf8d35f33a1de0d2\transformed\navigation-common-2.7.7\res
+com.bmu.lifelink.app-play-services-basement-18.3.0-51 C:\Users\Sajeeb\.gradle\caches\transforms-4\d030dcd03a8ed9f8f963c3b739d3543e\transformed\play-services-basement-18.3.0\res
+com.bmu.lifelink.app-ui-tooling-data-release-52 C:\Users\Sajeeb\.gradle\caches\transforms-4\d5d2646759fad72de85692172a0b4b16\transformed\ui-tooling-data-release\res
+com.bmu.lifelink.app-animation-core-release-53 C:\Users\Sajeeb\.gradle\caches\transforms-4\dc4f511f9e40ccd5a5b0244755824f2d\transformed\animation-core-release\res
+com.bmu.lifelink.app-credentials-1.2.0-rc01-54 C:\Users\Sajeeb\.gradle\caches\transforms-4\dd746da3ad3d5d3e91c07b011408d527\transformed\credentials-1.2.0-rc01\res
+com.bmu.lifelink.app-navigation-runtime-2.7.7-55 C:\Users\Sajeeb\.gradle\caches\transforms-4\e032dd8812e8346d32df3246516b7474\transformed\navigation-runtime-2.7.7\res
+com.bmu.lifelink.app-material-icons-extended-release-56 C:\Users\Sajeeb\.gradle\caches\transforms-4\f31cd2bd85ed4ac13013cfc542695f5f\transformed\material-icons-extended-release\res
+com.bmu.lifelink.app-ui-util-release-57 C:\Users\Sajeeb\.gradle\caches\transforms-4\f8d90827b31236473ad90906e7d95d03\transformed\ui-util-release\res
+com.bmu.lifelink.app-res-58 C:\Users\Sajeeb\Desktop\New folder\app\build\generated\res\processDebugGoogleServices
+com.bmu.lifelink.app-resValues-59 C:\Users\Sajeeb\Desktop\New folder\app\build\generated\res\resValues\debug
+com.bmu.lifelink.app-packageDebugResources-60 C:\Users\Sajeeb\Desktop\New folder\app\build\intermediates\incremental\debug\packageDebugResources\merged.dir
+com.bmu.lifelink.app-packageDebugResources-61 C:\Users\Sajeeb\Desktop\New folder\app\build\intermediates\incremental\debug\packageDebugResources\stripped.dir
+com.bmu.lifelink.app-debug-62 C:\Users\Sajeeb\Desktop\New folder\app\build\intermediates\merged_res\debug\mergeDebugResources
+com.bmu.lifelink.app-debug-63 C:\Users\Sajeeb\Desktop\New folder\app\src\debug\res
+com.bmu.lifelink.app-main-64 C:\Users\Sajeeb\Desktop\New folder\app\src\main\res

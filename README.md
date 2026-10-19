@@ -15,19 +15,19 @@ The public request page writes new requests only to `/requests`, and the donor a
 
 ## Run locally
 
-Serve this folder from a local web server (ES modules and Firebase require HTTP/HTTPS; opening `index.html` as a `file://` URL will not work). For example, use VS Code Live Server or another static server. Then open `index.html` on the served origin.
+Serve this folder from a local web server (ES modules and Firebase require HTTP/HTTPS; opening files as `file://` URLs will not work). For example, use VS Code Live Server or another static server. Open the site at the server root; its directory-based routes are `/`, `/about/`, `/request/`, `/donor/`, `/blog/`, and `/admin/`.
 
 ## Pages
 
-- `index.html` — public landing page
-- `about.html` — process and privacy information
-- `request.html` — student-ID check and private request submission
-- `donor.html` — student-ID check and private donor application submission
-- `blog.html` — community stories and individual blog articles
-- `admin.html` — Firebase-authenticated donor and request dashboard
+- `/` — public landing page (`index.html`)
+- `/about/` — process and privacy information (`about/index.html`)
+- `/request/` — student-ID check and private request submission (`request/index.html`)
+- `/donor/` — student-ID check and private donor application submission (`donor/index.html`)
+- `/blog/` — community stories and individual blog articles (`blog/index.html`)
+- `/admin/` — Firebase-authenticated donor and request dashboard (`admin/index.html`)
 
 Starter blog stories are maintained in `js/blog.js`; published administrator posts are loaded from Firebase and feed the homepage story slider, blog archive, article views, and latest-stories navigation menu.
 
-Administrators can publish blog posts from the Blog posts tab in `admin.html`. Post titles, bodies, and publicly accessible HTTPS cover image URLs are stored in `/blogPosts`; image files must be hosted separately. Existing sample stories in `js/blog.js` remain visible alongside administrator posts.
+Administrators can publish blog posts from the Blog posts tab in `/admin/`. Post titles, bodies, and publicly accessible HTTPS cover image URLs are stored in `/blogPosts`; image files must be hosted separately. Existing sample stories in `js/blog.js` remain visible alongside administrator posts.
 
 Admin features include donor add/edit/remove, name/phone/location search, blood-group and availability filters, donor application approval/decline, blog post publishing/deletion, request search, status updates, and request deletion. The donor directory, donor applications, blog publishing, and request details require the configured Firebase admin UID.

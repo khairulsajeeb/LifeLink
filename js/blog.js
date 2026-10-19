@@ -67,7 +67,7 @@ const starterPosts = [
 let posts = [...starterPosts];
 
 const escapeHtml = (value) => String(value).replace(/[&<>"']/g, (character) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' })[character]);
-const postUrl = (post) => `blog.html?post=${encodeURIComponent(post.id)}`;
+const postUrl = (post) => `./?post=${encodeURIComponent(post.id)}`;
 
 function renderMegaPosts() {
   document.querySelectorAll('[data-blog-mega-posts]').forEach((container) => {
@@ -113,7 +113,7 @@ function renderArticle() {
   document.querySelector('meta[name="twitter:title"]')?.setAttribute('content', `${post.title} — LifeLink`);
   document.querySelector('meta[name="twitter:description"]')?.setAttribute('content', description);
   document.querySelector('meta[name="twitter:image"]')?.setAttribute('content', post.image);
-  articleView.innerHTML = `<a class="text-link article-back-link" href="blog.html">← All stories</a><header class="article-heading"><span class="section-kicker">${escapeHtml(post.category.toUpperCase())}</span><h1>${escapeHtml(post.title)}</h1><div class="blog-byline"><span>${escapeHtml(post.date)}</span><span>${escapeHtml(post.readTime)}</span></div></header><img class="article-cover" src="${escapeHtml(post.image)}" alt="${escapeHtml(post.imageAlt)}"><div class="article-body">${post.paragraphs.map((paragraph) => `<p>${escapeHtml(paragraph)}</p>`).join('')}<div class="article-endnote"><span class="section-kicker">LIFELINK · BMU STUDENTS PLATFORM</span><a class="text-link" href="donor.html">Offer to donate <span>↗</span></a></div></div>`;
+  articleView.innerHTML = `<a class="text-link article-back-link" href="./">← All stories</a><header class="article-heading"><span class="section-kicker">${escapeHtml(post.category.toUpperCase())}</span><h1>${escapeHtml(post.title)}</h1><div class="blog-byline"><span>${escapeHtml(post.date)}</span><span>${escapeHtml(post.readTime)}</span></div></header><img class="article-cover" src="${escapeHtml(post.image)}" alt="${escapeHtml(post.imageAlt)}"><div class="article-body">${post.paragraphs.map((paragraph) => `<p>${escapeHtml(paragraph)}</p>`).join('')}<div class="article-endnote"><span class="section-kicker">LIFELINK · BMU STUDENTS PLATFORM</span><a class="text-link" href="../donor/">Offer to donate <span>↗</span></a></div></div>`;
 }
 
 function renderBlog() {

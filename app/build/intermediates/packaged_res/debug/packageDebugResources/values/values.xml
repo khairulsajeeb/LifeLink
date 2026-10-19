@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">LifeLink</string>
+    <string name="app_subtitle">BMU STUDENTS PLATFORM</string>
+    <string name="firebase_database_url" translatable="false">https://bmu-hall-default-rtdb.asia-southeast1.firebasedatabase.app</string>
+    <string name="gcm_defaultSenderId" translatable="false">494115549490</string>
+    <string name="google_api_key" translatable="false">AIzaSyB69bWI69iFcL0ZqhkgFpmA8QL8Dlgp0wk</string>
+    <string name="google_app_id" translatable="false">1:494115549490:android:a1b2c3d4e5f60718293a4b</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyB69bWI69iFcL0ZqhkgFpmA8QL8Dlgp0wk</string>
+    <string name="google_storage_bucket" translatable="false">bmu-hall.firebasestorage.app</string>
+    <string name="project_id" translatable="false">bmu-hall</string>
+    <style name="Theme.LifeLink" parent="android:Theme.Material.Light.NoActionBar">
+        <item name="android:statusBarColor">#fffaf7</item>
+        <item name="android:windowLightStatusBar">true</item>
+        <item name="android:navigationBarColor">#fffaf7</item>
+        <item name="android:windowLightNavigationBar">true</item>
+    </style>
+</resources>
