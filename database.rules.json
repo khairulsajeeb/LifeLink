@@ -1,0 +1,29 @@
+{
+  "rules": {
+    "requests": {
+      ".read": "auth != null && auth.uid === 'jgohHGadXtdpWlJws7HGDvUiern2'",
+      "$requestId": {
+        ".write": "(auth != null && auth.uid === 'jgohHGadXtdpWlJws7HGDvUiern2') || (!data.exists() && newData.hasChildren(['studentId', 'name', 'phone', 'bloodType', 'hospital', 'urgency', 'status', 'createdAt']) && newData.child('studentId').isString() && newData.child('studentId').val().matches(/^(19|2[0-6])[0-9]{6}$/) && newData.child('name').isString() && newData.child('name').val().length <= 80 && newData.child('phone').isString() && newData.child('phone').val().length <= 24 && newData.child('bloodType').isString() && newData.child('hospital').isString() && newData.child('hospital').val().length <= 120 && newData.child('urgency').isString() && newData.child('status').val() === 'New' && newData.child('createdAt').isNumber())"
+      }
+    },
+    "donors": {
+      ".read": "auth != null && auth.uid === 'jgohHGadXtdpWlJws7HGDvUiern2'",
+      "$donorId": {
+        ".write": "auth != null && auth.uid === 'jgohHGadXtdpWlJws7HGDvUiern2'"
+      }
+    },
+    "donorApplications": {
+      ".read": "auth != null && auth.uid === 'jgohHGadXtdpWlJws7HGDvUiern2'",
+      "$applicationId": {
+        ".write": "(auth != null && auth.uid === 'jgohHGadXtdpWlJws7HGDvUiern2') || (!data.exists() && newData.hasChildren(['studentId', 'name', 'phone', 'bloodType', 'location', 'status', 'createdAt']) && newData.child('studentId').isString() && newData.child('studentId').val().matches(/^(19|2[0-6])[0-9]{6}$/) && newData.child('name').isString() && newData.child('name').val().length > 0 && newData.child('name').val().length <= 80 && newData.child('phone').isString() && newData.child('phone').val().length > 0 && newData.child('phone').val().length <= 24 && newData.child('bloodType').isString() && newData.child('bloodType').val().matches(/^(A[+−]|B[+−]|AB[+−]|O[+−]|Unknown)$/) && newData.child('location').isString() && newData.child('location').val().length > 0 && newData.child('location').val().length <= 100 && newData.child('status').val() === 'Pending' && newData.child('createdAt').isNumber())"
+      }
+    },
+    "blogPosts": {
+      ".read": true,
+      "$postId": {
+        ".write": "auth != null && auth.uid === 'jgohHGadXtdpWlJws7HGDvUiern2'",
+        ".validate": "newData.hasChildren(['title', 'body', 'coverUrl', 'createdAt', 'updatedAt']) && newData.child('title').isString() && newData.child('title').val().length > 0 && newData.child('title').val().length <= 120 && newData.child('body').isString() && newData.child('body').val().length > 0 && newData.child('body').val().length <= 12000 && newData.child('coverUrl').isString() && newData.child('coverUrl').val().beginsWith('https://') && newData.child('coverUrl').val().length <= 2048 && newData.child('createdAt').isNumber() && newData.child('updatedAt').isNumber()"
+      }
+    }
+  }
+}
