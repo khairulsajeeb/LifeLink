@@ -1,12 +1,22 @@
-export async function downloadRequestCard(request, { includeContact = false } = {}) {
-  if (document.fonts?.ready) await document.fonts.ready;
+﻿export async function downloadRequestCard(request, { includeContact = false } = {}) {
+  if (document.fonts && document.fonts.ready) await document.fonts.ready;
+
   const canvas = document.createElement('canvas');
   canvas.width = 1080;
   canvas.height = 1350;
+
   const context = canvas.getContext('2d');
   if (!context) throw new Error('Canvas is unavailable');
+
   drawRequestCard(context, canvas.width, canvas.height, request, includeContact);
-  const image = await new Promise((resolve, reject) => canvas.toBlob((blob) => blob ? resolve(blob) : reject(new Error('Could not create image')), 'image/png'));
+
+  const image = await new Promise((resolve, reject) => {
+    canvas.toBlob((blob) => {
+      if (blob) resolve(blob);
+      else reject(new Error('Could not create image'));
+    }, 'image/png');
+  });
+
   const url = URL.createObjectURL(image);
   const link = document.createElement('a');
   const bloodType = String(request.bloodType || 'blood').replace(/[^a-z0-9]/gi, '');
@@ -26,6 +36,7 @@ function drawRequestCard(context, width, height, request, includeContact) {
   context.fillStyle = '#bd3f36';
   roundedRect(context, 54, 54, width - 108, height - 108, 42);
   context.fill();
+
   context.fillStyle = 'rgba(255,255,255,.07)';
   context.beginPath();
   context.arc(width - 80, 88, 245, 0, Math.PI * 2);
@@ -57,8 +68,10 @@ function drawRequestCard(context, width, height, request, includeContact) {
   context.fillText('UNITS NEEDED', 112, 390);
   context.fillStyle = '#fff';
   context.font = '700 43px Poppins, Arial, sans-serif';
-  const units = String(request.units || '1');
-  context.fillText(units === '4' ? '4+ units' : `${units} ${units === '1' ? 'unit' : 'units'}`, 112, 448);
+
+  const unitsValue = Number(request.units || 1);
+  const unitsText = unitsValue >= 4 ? '4+ units' : `${unitsValue} ${unitsValue === 1 ? 'unit' : 'units'}`;
+  context.fillText(unitsText, 112, 448);
 
   context.fillStyle = '#f8dcd4';
   context.font = '600 25px Poppins, Arial, sans-serif';
@@ -95,8 +108,10 @@ function writeWrappedText(context, text, x, y, maxWidth, lineHeight, maxLines) {
   const words = String(text).split(/\s+/);
   let line = '';
   let lineNumber = 0;
+
   for (const word of words) {
     const nextLine = line ? `${line} ${word}` : word;
+
     if (context.measureText(nextLine).width > maxWidth && line) {
       context.fillText(line, x, y + lineNumber * lineHeight);
       line = word;
@@ -106,10 +121,23 @@ function writeWrappedText(context, text, x, y, maxWidth, lineHeight, maxLines) {
       line = nextLine;
     }
   }
-  if (lineNumber < maxLines && line) context.fillText(line, x, y + lineNumber * lineHeight);
+
+  if (lineNumber < maxLines && line) {
+    context.fillText(line, x, y + lineNumber * lineHeight);
+  }
 }
 
 function roundedRect(context, x, y, width, height, radius) {
+  const r = Math.min(radius, width / 2, height / 2);
   context.beginPath();
-  context.roundRect(x, y, width, height, radius);
+  context.moveTo(x + r, y);
+  context.lineTo(x + width - r, y);
+  context.quadraticCurveTo(x + width, y, x + width, y + r);
+  context.lineTo(x + width, y + height - r);
+  context.quadraticCurveTo(x + width, y + height, x + width - r, y + height);
+  context.lineTo(x + r, y + height);
+  context.quadraticCurveTo(x, y + height, x, y + height - r);
+  context.lineTo(x, y + r);
+  context.quadraticCurveTo(x, y, x + r, y);
+  context.closePath();
 }

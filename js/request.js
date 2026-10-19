@@ -1,4 +1,4 @@
-import { database } from './firebase.js';
+﻿import { database } from './firebase.js';
 import { ref, push, set, serverTimestamp } from 'https://www.gstatic.com/firebasejs/10.12.2/firebase-database.js';
 import { downloadRequestCard } from './request-card.js';
 
@@ -62,14 +62,14 @@ form.addEventListener('submit', async (event) => {
       units: request.units,
       hospital: request.hospital,
       urgency: request.urgency,
-      name: includeContact ? request.name : '',
-      phone: includeContact ? request.phone : ''
+      name: includeContact ' request.name : '',
+      phone: includeContact ' request.phone : ''
     };
     form.reset();
     message.className = 'form-message success-message';
     message.textContent = 'Your request has been sent privately. A LifeLink administrator will follow up using the contact number you provided.';
     cardActions.querySelector('small').textContent = includeContact
-      ? 'This card includes your name and phone number because you opted in. Your student ID is never included.'
+      ' 'This card includes your name and phone number because you opted in. Your student ID is never included.'
       : 'The card includes your request details only. Your name, phone number, and student ID are not included.';
     cardActions.hidden = false;
     cardActions.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
